@@ -58,15 +58,20 @@ mountain pink vines
 ```
 
 ### each_letter_count.rb
+
 Write a program that:
+ 
+ Asks the user to enter a word.
+  The program should print each letter in the word the number of times it appears in the word.
 
-Asks the user to enter a list of words separated by spaces. The program should only print the words that are have an even number of characters
+Example input: `loop`
 
-Example (`mountain pink vines` is the input):
-
+Output:
 ```bash
-"Enter a list of words separated by spaces:"
-mountain pink vines
-"mountain"
-"pink"
+"Enter a word"
+loop
+l appears 1 times
+o appears 2 times
+o appears 2 times
+p appears 1 times
 ```
